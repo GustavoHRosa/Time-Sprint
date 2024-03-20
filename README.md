@@ -5,6 +5,6 @@ de Tech Academy do curso de TADS
 
 Conteúdo apresentado:
 
-- Asstes 
+- assets 
 - html
 - css
