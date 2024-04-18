@@ -1,0 +1,170 @@
+@import url(https://fonts.googleapis.com/css2?family=Audiowide&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: Audiowide, Arial;
+}
+
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+section, footer {
+    padding: 54px 0;
+
+}
+
+.banner-logo{
+    width: 200px;
+}
+
+
+p{
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+.btn {
+    background-color: aqua;
+    color: rgb(0, 56, 105);
+    padding: 15px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover{
+    background-color:antiquewhite;
+}
+header {
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul a {
+    color: aliceblue;
+    margin: 0 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+    display: block;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+}
+
+.banner .banner-text h1{
+    font-size: 96px;
+    color: azure;
+}
+
+.banner .banner-text p{
+    font: 20px;
+    color: aliceblue;
+    font-weight: arial;
+    margin: 18px 0;
+}
+
+ .textos {
+     color: #000822;
+     padding: 30px 30px;
+     justify-content: end;
+     text-align: center;
+ }
+
+.textos .text{
+    text-align: center;
+    padding: 25px 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ .jogo h2 {
+     position: absolute;
+     text-align: center;
+     color: #ffffff;
+     text-align: center;
+ }
+
+ .logo1 {
+     width: 150%;
+ }
+
+ #prints {
+     background-color: #ffffff;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+
+ .grid {
+     /*Aplicar na grid*/
+     display: grid;
+     /*Configurando uma coluna*/
+     grid-template-columns: 50% 50%;
+ }
+
+ .grid .coluna img {
+     width: 80%;
+     padding: 0 20px;
+
+ }
+
+ .grid .coluna,
+ #prints {
+     /*Alinhar ao centro*/
+     text-align: center;
+ }
+
+ .centro h2 {
+     font-size: 25px;
+     padding: 55px 20px;
+ }
+
+ footer {
+     background-color: #011147;
+     color: white;
+     padding: 30px;
+     box-sizing: border-box;
+     text-align: center;
+ }
+
+ .textos2 {
+     color: #000822;
+     padding: 30px 300px;
+     justify-content: left;
+     text-align: left;
+ }
+
+ .textos2 .text2 {
+     text-align: left;
+     padding: 30px 0px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
